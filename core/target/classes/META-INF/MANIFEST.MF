@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-Category: WRENT SERVICE
+Bundle-Description: Core bundle for WRENT SERVICE
+Bundle-ManifestVersion: 2
+Bundle-Name: WRENT SERVICE - Core
+Bundle-SymbolicName: aem-rs.core
+Bundle-Version: 0.0.1.SNAPSHOT
+

@@ -1,0 +1,12 @@
+{
+  "id":"com.adobe.aem:aem-rs.all:slingosgifeature:publish:0.0.1-SNAPSHOT",
+  "configurations":  {
+    "org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl":    {
+      "resource.resolver.mapping":[
+        "/content/rs/</",
+        "/:/"
+      ],
+      ":configurator:content-package-origins":"com.adobe.aem:aem-rs.all:0.0.1-SNAPSHOT|com.adobe.aem:aem-rs.ui.config:0.0.1-SNAPSHOT"
+    }
+  }
+}

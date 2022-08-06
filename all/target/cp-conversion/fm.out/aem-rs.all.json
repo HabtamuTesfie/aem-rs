@@ -1,0 +1,47 @@
+{
+  "id":"com.adobe.aem:aem-rs.all:slingosgifeature:0.0.1-SNAPSHOT",
+  "bundles":[
+    {
+      "id":"com.adobe.aem:aem-rs.core:0.0.1-SNAPSHOT",
+      "start-order":"20",
+      "content-package-origins":"com.adobe.aem:aem-rs.all:0.0.1-SNAPSHOT"
+    }
+  ],
+  "configurations":  {
+    "org.apache.sling.commons.log.LogManager.factory.config~rs":    {
+      "org.apache.sling.commons.log.names":[
+        "com.adobe.aem.rs"
+      ],
+      "org.apache.sling.commons.log.level":"INFO",
+      "org.apache.sling.commons.log.file":"logs/error.log",
+      "org.apache.sling.commons.log.additiv":"false",
+      ":configurator:content-package-origins":"com.adobe.aem:aem-rs.all:0.0.1-SNAPSHOT|com.adobe.aem:aem-rs.ui.config:0.0.1-SNAPSHOT"
+    }
+  },
+  "content-packages:ARTIFACTS|true":[
+    "com.adobe.aem:aem-rs.ui.content:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem:aem-rs.ui.config:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem:aem-rs.ui.apps:zip:cp2fm-converted:0.0.1-SNAPSHOT",
+    "com.adobe.aem:aem-rs.all:zip:cp2fm-converted:0.0.1-SNAPSHOT"
+  ],
+  "repoinit:TEXT|true":[
+    "create path (sling:OrderedFolder) /content/dam/rs",
+    "create path (nt:unstructured) /content/dam/rs/jcr:content",
+    "set properties on /content/dam/rs/jcr:content",
+    "  set cq:conf{String} to /conf/rs",
+    "  set jcr:title{String} to \"WRENT SERVICE\"",
+    "end"
+  ],
+  "api-regions:JSON|false":[
+    {
+      "name":"global",
+      "exports":[
+        "com.adobe.aem.rs.core.filters",
+        "com.adobe.aem.rs.core.listeners",
+        "com.adobe.aem.rs.core.models",
+        "com.adobe.aem.rs.core.schedulers",
+        "com.adobe.aem.rs.core.servlets"
+      ]
+    }
+  ]
+}

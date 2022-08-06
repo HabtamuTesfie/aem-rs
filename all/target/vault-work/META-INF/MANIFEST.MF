@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 17
+Implementation-Title: WRENT SERVICE - All
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: container
+Content-Package-Id: com.adobe.aem:aem-rs.all:0.0.1-SNAPSHOT
+Content-Package-Description: All content package for WRENT SERVICE
+Content-Package-Roots: /apps/rs-packages,/apps/rs-vendor-packages
+

@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 17
+Implementation-Title: RENT SERVICE - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Content-Package-Type: application
+Content-Package-Id: com.adobe.aem:aem-rs.ui.apps:0.0.1-SNAPSHOT
+Content-Package-Description: UI apps package for RENT SERVICE
+Content-Package-Roots: /apps/rs/clientlibs,/apps/rs/components,/apps/rs/
+ i18n
+Import-Package: com.adobe.aem.rs.core.models;version="[1.0.0,2.0.0)",org
+ .apache.sling.scripting.sightly;version="[2.0.0,3.0.0)"
+

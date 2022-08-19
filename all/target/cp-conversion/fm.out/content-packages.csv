@@ -1,4 +1,4 @@
-# File created on Wed Jul 20 09:54:20 EDT 2022 by the Apache Sling Content Package to Sling Feature converter
+# File created on Sat Aug 06 15:35:37 EDT 2022 by the Apache Sling Content Package to Sling Feature converter
 # content-package path, content-package ID, content-package type, content-package parent ID, path in parent content-package, absolute path
 /Users/ezanaaimro/Desktop/Rent-Service/aem-rs/all/target/aem-rs.all-0.0.1-SNAPSHOT.zip,com.adobe.aem:aem-rs.all:0.0.1-SNAPSHOT,CONTAINER,,,
 /Users/ezanaaimro/Desktop/Rent-Service/aem-rs/all/target/aem-rs.all-0.0.1-SNAPSHOT.zip,com.adobe.aem:aem-rs.ui.apps:0.0.1-SNAPSHOT,APPLICATION,com.adobe.aem:aem-rs.all:0.0.1-SNAPSHOT,/jcr_root/apps/rs-packages/application/install/aem-rs.ui.apps-0.0.1-SNAPSHOT.zip,/Users/ezanaaimro/Desktop/Rent-Service/aem-rs/all/target/aem-rs.all-0.0.1-SNAPSHOT.zip!/jcr_root/apps/rs-packages/application/install/aem-rs.ui.apps-0.0.1-SNAPSHOT.zip

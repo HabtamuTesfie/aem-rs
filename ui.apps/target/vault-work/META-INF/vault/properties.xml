@@ -4,7 +4,7 @@
 <comment>RENT SERVICE - UI apps</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-08-06T19:17:46.511Z</entry>
+<entry key="created">2022-08-06T19:35:31.573Z</entry>
 <entry key="groupId">com.adobe.aem</entry>
 <entry key="name">aem-rs.ui.apps</entry>
 <entry key="description">UI apps package for RENT SERVICE</entry>

@@ -5,4 +5,22 @@ Bundle-ManifestVersion: 2
 Bundle-Name: WRENT SERVICE - Core
 Bundle-SymbolicName: aem-rs.core
 Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: com.adobe.aem.rs.core.filters;version="1.0",com.adobe.
+ aem.rs.core.listeners;version="1.0",com.adobe.aem.rs.core.models;vers
+ ion="1.0",com.adobe.aem.rs.core.schedulers;version="1.0",com.adobe.ae
+ m.rs.core.servlets;version="1.0"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.apache.sling.api.resource.observation.ResourceChangeListe
+ ner";uses:="org.apache.sling.api.resource.observation"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.aem.rs.core.filters.LoggingFilte
+ r.xml,OSGI-INF/com.adobe.aem.rs.core.listeners.SimpleResourceListener
+ .xml,OSGI-INF/com.adobe.aem.rs.core.schedulers.SimpleScheduledTask.xm
+ l,OSGI-INF/com.adobe.aem.rs.core.servlets.SimpleServlet.xml
+Sling-Model-Classes: com.adobe.aem.rs.core.models.HelloWorldModel
 

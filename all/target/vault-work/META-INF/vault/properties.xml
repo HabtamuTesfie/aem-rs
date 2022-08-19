@@ -3,7 +3,7 @@
 <properties>
 <comment>WRENT SERVICE - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-08-06T19:17:45.068Z</entry>
+<entry key="created">2022-08-06T19:35:36.263Z</entry>
 <entry key="groupId">com.adobe.aem</entry>
 <entry key="name">aem-rs.all</entry>
 <entry key="description">All content package for WRENT SERVICE</entry>

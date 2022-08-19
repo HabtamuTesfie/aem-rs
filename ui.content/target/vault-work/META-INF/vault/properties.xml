@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.adobe.aem:aem-rs.ui.apps:0.0.1-SNAPSHOT=maven:com.adobe.aem:aem-rs.ui.apps:0.0.1-SNAPSHOT:zip</entry>
-<entry key="created">2022-08-06T19:17:46.847Z</entry>
+<entry key="created">2022-08-06T19:35:34.035Z</entry>
 <entry key="groupId">com.adobe.aem</entry>
 <entry key="description">UI content package for WRENT SERVICE</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

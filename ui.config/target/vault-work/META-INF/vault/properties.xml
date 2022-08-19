@@ -4,7 +4,7 @@
 <comment>WRENT SERVICE - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2022-08-06T19:17:46.792Z</entry>
+<entry key="created">2022-08-06T19:35:35.420Z</entry>
 <entry key="groupId">com.adobe.aem</entry>
 <entry key="name">aem-rs.ui.config</entry>
 <entry key="description">UI config package for WRENT SERVICE</entry>
